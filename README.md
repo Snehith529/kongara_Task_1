@@ -6,7 +6,7 @@ The implementation starts by reading the CSV files "data.csv" and "label.csv" us
 # Step 2: Data Preprocessing
 From the "data.csv" file, specific columns "ACC X" and "Light" are selected. These columns are chosen based on their relevance to the task. Further preprocessing such as normalization or data augmentation could be added here if needed.
 
-# Step 3: Convolution Neural Network (CNN) Definition
+# Step 3: Convolution Neural Network (CNN)
 A CNN is defined in this step. The CNN architecture includes:
 
 A convolutional layer with a kernel size of 3 and 8 filters. This layer extracts features from the input data.
