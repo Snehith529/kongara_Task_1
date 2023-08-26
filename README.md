@@ -23,6 +23,5 @@ The training process involves feeding the preprocessed data into the CNN model. 
 A batch size of 1 is considered in this implementation, meaning that each data point is processed individually. This choice is made based on the assumption that the dataset is small enough to fit into memory and the intention is to allow the model to learn from each individual instance effectively.
 
 # Step 7: Model Saving
-Once the model is trained and converged, it is saved to the "output.txt" file. This saved model can be used later for making predictions on new, unseen data.
-
+Once the model is trained and converged, the predicted labels are saved to the "output.txt" file in sequential manner.
 
